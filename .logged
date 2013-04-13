@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  11 APR 2013 19:53
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  12 APR 2013 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -31,8 +31,8 @@ Package nag Info: Loaded nag-orthodox.cfg  on input line 552.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/nag/nag-orthodox.cfg
 File: nag-orthodox.cfg 2006/04/19 v1.8 strict rules for nag.sty (ulmi)
 ))
-Document Class: pandoc-LaTeX-dissertation 2013/04/10 Template for a Harvard dis
-sertation
+Document Class: pandoc-LaTeX-dissertation 2013/04/10 Template for a dissertatio
+n
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/bk12.clo
@@ -85,8 +85,8 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 Package: quotchap 2011/01/15 v1.0 Decorative Chapter Headings with Quotes
 \@quotebox=\box27
 )
-(./packages/MIT.sty
-Package: packages/MIT 
+(./packages/Harvard.sty
+Package: packages/Harvard 
 Package color Info: Redefining color chaptergrey on input line 6.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -1239,38 +1239,22 @@ line 6.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 6.
  (./frontmatter/personalize.tex)
-
-Package nag Warning: Command \sc is an old LaTeX 2.09 command. 
-(nag)                Use \scshape or \textsc instead on input line 11.
-
-
-Package nag Warning: Command \rm is an old LaTeX 2.09 command. 
-(nag)                Use \rmfamily or \textrm instead on input line 11.
-
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
 [1
 
-]
+] [2]
+
+Package nag Warning: Command \rm is an old LaTeX 2.09 command. 
+(nag)                Use \rmfamily or \textrm instead on input line 11.
+
 
 Package nag Warning: Command \rm is an old LaTeX 2.09 command. 
 (nag)                Use \rmfamily or \textrm instead on input line 12.
 
 (./frontmatter/abstract.tex)
-
-Package nag Warning: Command \sl is an old LaTeX 2.09 command. 
-(nag)                Use \slshape or \textsl instead on input line 12.
-
-LaTeX Font Info:    Font shape `EU1/EBGaramond(3)/m/sl' in size <12> not availa
-ble
-(Font)              Font shape `EU1/EBGaramond(3)/m/it' tried instead on input 
-line 12.
-
-Package nag Warning: Command \sl is an old LaTeX 2.09 command. 
-(nag)                Use \slshape or \textsl instead on input line 12.
-
 
 Package nag Warning: Command \rm is an old LaTeX 2.09 command. 
 (nag)                Use \rmfamily or \textrm instead on input line 12.
@@ -1318,9 +1302,9 @@ Chapter 0.
  (./chapters/derivatives/tex/chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/n' will be
-(Font)              scaled to size 9.90161pt on input line 9.
+(Font)              scaled to size 9.03522pt on input line 9.
 LaTeX Font Info:    Font shape `EU1/Consolas(0)/m/it' will be
-(Font)              scaled to size 9.90161pt on input line 9.
+(Font)              scaled to size 9.03522pt on input line 9.
 [6
 
 
@@ -1372,7 +1356,7 @@ Appendix A.
 
 ]
 
-Package nag Warning: 7 complaints in total.
+Package nag Warning: 4 complaints in total.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
@@ -1388,11 +1372,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
  22974 strings out of 494004
- 442045 string characters out of 3150890
- 484382 words of memory out of 3000000
- 25833 multiletter control sequences out of 15000+200000
- 10325 words of font info for 79 fonts, out of 3000000 for 9000
+ 442192 string characters out of 3150890
+ 486404 words of memory out of 3000000
+ 25834 multiletter control sequences out of 15000+200000
+ 10634 words of font info for 81 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,12n,94p,985b,388s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,11n,94p,985b,388s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dissertation.pdf (28 pages).
+Output written on dissertation.pdf (29 pages).
