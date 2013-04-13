@@ -1,0 +1,40 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass{pandoc-LaTeX-dissertation}
+
+\begin{document}
+	
+% the front matter
+\input{frontmatter/personalize}
+\maketitle
+\copyrightpage
+\abstractpage
+\tableofcontents
+% \listoffigures
+\dedicationpage
+\acknowledgments
+
+\onehalfspacing
+
+% incluude each chapter...
+\setcounter{chapter}{-1} % start chapter numbering at 0
+\include{chapters/derivatives/tex/introduction}
+\include{chapters/derivatives/tex/chapter1}
+\include{chapters/derivatives/tex/chapter2}
+\include{chapters/derivatives/tex/chapter3}
+\include{chapters/derivatives/tex/conclusion}
+\begin{appendices}
+	\include{chapters/derivatives/tex/appendixA}
+\end{appendices}
+
+\singlespacing
+
+% the back matter
+\clearpage
+\bibliography{references}
+\addcontentsline{toc}{chapter}{References}
+
+\include{endmatter/colophon}
+
+\end{document}
