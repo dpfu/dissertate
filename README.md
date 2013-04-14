@@ -1,6 +1,6 @@
 # Introducing the Pandoc + LaTeX dissertation template
 
-This repository provides files needed to support the production and typesetting of a PhD dissertation. Write in Pandoc (a Markdown variant), sprinkle LaTeX wherever you see fit, and you'll end up with a [beautiful pdf](http://bit.ly/YRt5hE). The code currently supports Harvard and Princeton, though it can be adapted easily.
+This repository provides files needed to support the production and typesetting of a PhD dissertation. Write it in Pandoc (a Markdown variant), sprinkle LaTeX wherever you see fit, and you'll end up with a [beautiful pdf](http://bit.ly/YRt5hE). You'll also get a Word file for each chapter, for sharing with those unfamiliar with LaTeX. The code currently supports Harvard and Princeton, though it can easily be adapted to meet the requirements of other schools.
 
 # Getting started
 1. Install the default font, EB Garamond. The files are provided in `fonts/EB Garamond`.
