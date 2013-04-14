@@ -81,7 +81,7 @@
 			        Numbers=OldStyle, 
 			        Ligatures={Common}]
 			       {EB Garamond} % 
-\setsansfont[Mapping=tex-text,BoldFont={Helvetica}]{Helvetica}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text,BoldFont={Lato Bold}]{Lato Regular}
 \setmonofont[Scale=MatchLowercase]{Consolas}
 
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
