@@ -7,6 +7,17 @@
 
 % Formatting guidelines found in:
 % http://libraries.mit.edu/archives/thesis-specs/thesis-specs-2012-2013.pdf
+\renewcommand{\frontmatter}{
+	\input{frontmatter/personalize}
+	\maketitle
+	\copyrightpage
+	\abstractpage
+	\tableofcontents
+	% \listoffigures % optional
+	\dedicationpage
+	\acknowledgments
+}
+
 \renewcommand{\maketitle}{ 
 	\thispagestyle{empty}
 	\vspace*{\fill} 

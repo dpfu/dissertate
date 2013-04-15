@@ -7,6 +7,17 @@
 
 % Formatting guidelines found in:
 % http://www.princeton.edu/~mudd/thesis/MuddDissertationRequirements.pdf
+\renewcommand{\frontmatter}{
+	\input{frontmatter/personalize}
+	\maketitle
+	\copyrightpage
+	\abstractpage
+	\tableofcontents
+	% \listoffigures % optional
+	\dedicationpage
+	\acknowledgments
+}
+
 \renewcommand{\maketitle}{
 	\thispagestyle{empty}
 	\vspace*{\fill} 
