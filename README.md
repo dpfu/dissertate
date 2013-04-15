@@ -4,7 +4,7 @@ This repository provides the files needed to support production and typesetting 
 
 # Getting started
 1. Install the default font, EB Garamond. The files are provided in `fonts/EB Garamond`.
-2. Pick your school. Edit line 30 of `pandoc-LaTeX-dissertation.cls` so that it points to your university's package file (e.g., `packages/Harvard`).
+2. Pick your school. Edit line 30 of `dissertate.cls` so that it points to your university's package file (e.g., `packages/Harvard`).
 3. Personalize the document by filling out your name and all the other info in the file `frontmatter/personalize.md`.
 4. Build your dissertation with `build.command`, located in the `scripts` directory (e.g., you can `cd` into the main directory and then run `./scripts/build.command`).
 
