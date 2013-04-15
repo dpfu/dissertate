@@ -18,6 +18,7 @@
 \LoadClass[12pt, oneside, letterpaper]{book}
 
 \RequirePackage{color}
+\usepackage{hyperref}
 \RequirePackage[tiny, md, sc]{titlesec}
 \setlength{\headheight}{15pt}
 \pagestyle{plain}
@@ -45,15 +46,6 @@
 \RequirePackage[tight,nice]{units}
 \RequirePackage{verbatim}
 \setcounter{tocdepth}{1}
-\usepackage{hyperref}
-
-\hypersetup{
-    colorlinks,
-    citecolor=SchoolColor,
-    filecolor=black,
-    linkcolor=black,
-    urlcolor=SchoolColor,
-}
 
 \RequirePackage{url}
 \usepackage[titles]{tocloft}
