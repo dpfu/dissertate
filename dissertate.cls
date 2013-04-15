@@ -1,6 +1,6 @@
 % -------------------------------------------------------------------
 %  @LaTeX-class-file{
-%     filename        = "pandoc-thesis.cls",
+%     filename        = "dissertate.cls",
 %     version         = "0.1",
 %     date            = "2013-04-10",
 %     createdby       = "Jordan Suchow",
@@ -13,7 +13,7 @@
 \RequirePackage[l2tabu, orthodox]{nag}
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{pandoc-LaTeX-dissertation}
+\ProvidesClass{dissertate}
 	[2013/04/10 Template for a dissertation]
 \LoadClass[12pt, oneside, letterpaper]{book}
 
