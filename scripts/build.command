@@ -79,3 +79,5 @@ find . -name "*.out" -exec rm -rf {} \;
 find . -name "*.brf" -exec rm -rf {} \;
 find . -name "*.tex-e" -exec rm -rf {} \;
 find . -name "*.lof" -exec rm -rf {} \;
+find . -name "*.lot" -exec rm -rf {} \;
+find . -name "*.loa" -exec rm -rf {} \;
