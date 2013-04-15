@@ -74,7 +74,7 @@
 			        Ligatures={Common}]
 			       {EB Garamond} % 
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text,BoldFont={Lato Bold}]{Lato Regular}
-\setmonofont[Scale=MatchLowercase]{Consolas}
+\setmonofont[Scale=MatchLowercase]{Courier}
 
 \RequirePackage[labelfont={bf,sf,footnotesize,singlespacing},
 								textfont={sf,footnotesize,singlespacing},
